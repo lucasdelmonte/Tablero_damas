@@ -3,113 +3,121 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tablero de Damas</title>
+	<!-- Link de Estilos -->
+	<link rel="stylesheet" href="estilos.css">
+	<!-- Link de Estilos -->
+	<title>Mini Damas - Lucas</title>
 </head>
 <body bgcolor="#DDDDDD">
-	<div contenedor="primario" align="center">
-		<div class="header" bgcolor="#D4707A">
-			<nav>
+	<div contenedor="primary" align="center">
+		<!-- <div class="header" bgcolor="#D4707A"> -->
+			<nav class="header">
 				<ul>
-					<a href="#"><li>Mini damas</li></a>
-					<a href="#"><li>DAMAS</li></a>
-					<a href="#"><li>¿Qué es?</li></a>
+					<li class="titulo"><a href="#">Mini Damas</a></li>
+					<li class="subtitulo"><a href="#">DAMAS</a></li>
+					<li class="subtitulo"><a href="#">¿QUÉ ES?</a></li>
 				</ul>
 			</nav>		
-    	</div>	
-    	<div class="tablero">
-		  	<table border="3" width="600">
+    	<!-- </div>	 -->
+    	<ul class="barra">
+    		<li><a href="#">Mini Damas</a></li>
+    		<li>/</li>
+    		<li>Portada</li>
+    	</ul>
+    	<div class="board">
+		  	<table border="0">
 				<!-- 1ra Fila -->
-				<tr height="70">
-					<td bgcolor="#FFF">1</td>
-					<td bgcolor="#000">2</td>
-					<td bgcolor="#FFF">3</td>
-					<td bgcolor="#000">4</td>
-					<td bgcolor="#FFF">5</td>
-					<td bgcolor="#000">6</td>
-					<td bgcolor="#FFF">7</td>
-					<td bgcolor="#000">8</td>
+				<tr>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
 				</tr>
 				<!-- 2da Fila -->
-				<tr height="70">
-					<td bgcolor="#000">2</td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
+				<tr>
+					<td bgcolor="#242424" class="black_white"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
 				</tr>
 				<!-- 3ra Fila -->
-				<tr height="70">
-					<td bgcolor="#FFF">3</td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
+				<tr>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_white"></td>
 				</tr>
 				<!-- 4ta Fila --> 
-				<tr height="70">
-					<td bgcolor="#000">4</td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
+				<tr>
+					<td bgcolor="#242424" class="black"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
 				</tr>
 				<!-- 5ta Fila -->
-				<tr height="70">
-					<td bgcolor="#FFF">5</td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
+				<tr>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black"></td>
 				</tr>
 				<!-- 6ta Fila -->
-				<tr height="70">
-					<td bgcolor="#000">6</td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
+				<tr>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
 				</tr>
 				<!-- 7ma Fila -->
-				<tr height="70">
-					<td bgcolor="#FFF">7</td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
+				<tr>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_red"></td>
 				</tr>
 				<!-- 8va Fila -->
-				<tr height="70">
-					<td bgcolor="#000">8</td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
-					<td bgcolor="#000"></td>
-					<td bgcolor="#FFF"></td>
+				<tr>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
+					<td bgcolor="#242424" class="black_red"></td>
+					<td bgcolor="#F7F7F7" class="white"></td>
 				</tr>
 		  	</table>	
 		</div>
 		<div class="footer">
-			<input type="button" name="Nueva Partida" value="Nueva Partida" id="nueva_partida"> 
+			<input type="button" name="Nueva Partida" value="Nueva Partida" id="nueva_partida" class="button"> 
 		</div>	
 	</div>
 </body>
